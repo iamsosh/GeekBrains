@@ -3,7 +3,7 @@
 #Для решения используйте цикл while и арифметические операции.
 chislo = (int(input('Введите целое число ')))
 ostatok = 0
-while ostatok > 1 :
+while chislo > 1 :
 	if ostatok == 0 :
 		ostatok = chislo % 10
 		maximum = ostatok
